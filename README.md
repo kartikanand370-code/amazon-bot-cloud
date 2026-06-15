@@ -1,3 +1,7 @@
-# Amazon Stock Tracker Bot
-
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=YOUR_GITHUB_REPO_URL)
+services:
+  - type: web
+    name: amazon-stock-bot
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
